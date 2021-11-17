@@ -1,14 +1,9 @@
-// An array of all the colors used in this code.
 var turn=0
 function setup() {
-    //size of the canvas to draw on
     createCanvas(innerWidth,innerHeight); 
-    // Set the background to white, and move the line to setup();
     background("white");
-
     fill("#404040");
     rect(0, 0, width, 50);
-
     textAlign(CENTER);
     fill("White");
     textSize(18);
@@ -34,10 +29,6 @@ function createRow(y)
        b1.appear();   
    }  
 }
-
-
-
-    
 
 function mousePressed() {
   posX=0
