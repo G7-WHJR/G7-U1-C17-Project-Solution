@@ -2,7 +2,7 @@ var turn=0
 function setup() {
     createCanvas(innerWidth,innerHeight); 
     background("white");
-    fill("#404040");
+    fill("black");
     rect(0, 0, width, 50);
     textAlign(CENTER);
     fill("White");
@@ -34,47 +34,38 @@ function mousePressed() {
   posX=0
   posY=0
   if (mouseY < 250 && mouseX < 250 && mouseY > 150 && mouseX > 150) {
-    currentColor = "white";
     posX=200
     posY=200
   } 
   else if (mouseX < 350 && mouseY < 250) {
-    currentColor = "white";
     posX=300
     posY=200
   } 
   else if(mouseX < 450 && mouseY < 250) {
-    currentColor = "white";
     posX=400
     posY=200
   } 
   else if(mouseX < 250 && mouseY < 350) {
-    currentColor = "white";
     posX=200
     posY=300
   } 
   else if(mouseX < 350 && mouseY < 350) {
-    currentColor = "white";
     posX=300
     posY=300
   } 
   else if(mouseX < 450 && mouseY < 350) {
-    currentColor = "white";
     posX=400
     posY=300
   } 
   else if(mouseX < 250 && mouseY < 450) {
-    currentColor = "white";
     posX=200
     posY=400
   } 
   else if(mouseX < 350 && mouseY < 450) {
-    currentColor = "white";
     posX=300
     posY=400
   }  
   else if(mouseX < 450 && mouseY < 450) {
-    currentColor = "white";
     posX=400
     posY=400
   } 
